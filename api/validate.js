@@ -5,7 +5,7 @@ export default function handler(req, res) {
 
   try {
     const { license } = req.body;
-    const validLicenses = ['19_Cb1K_NJjlQCpWdbQQyl0bf3zX23GMFs58BzQqPygw'];
+    const validLicenses = [''];
 
     const isValid = validLicenses.includes(license);
 
